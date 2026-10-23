@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAVE FOREST // Protect Nature</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">🌿 SAVE<span>FOREST</span></a>
+
+    <nav>
+      <a href="#home">HOME</a>
+      <a href="#mission">MISSION</a>
+      <a href="#threats">THREATS</a>
+      <a href="#action">TAKE ACTION</a>
+    </nav>
+
+    <a href="#action" class="nav-cta">JOIN THE MISSION ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">✦ PROJECT GREEN EARTH // 001</p>
+
+        <h1>
+          THE FOREST<br>
+          IS OUR <span>FUTURE.</span>
+        </h1>
+
+        <p class="description">
+          When the last tree falls, the story of our planet
+          changes forever. Protect our forests. Preserve
+          our wildlife. Keep the Earth alive.
+        </p>
+
+        <div class="buttons">
+          <a href="#mission" class="btn primary">EXPLORE THE MISSION ↗</a>
+          <a href="#action" class="btn secondary">BECOME A GUARDIAN</a>
+        </div>
+
+        <div class="hero-status">
+          <span class="pulse"></span>
+          NATURE NEEDS ITS HEROES
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="scan-line"></div>
+
+        <div class="art-label top-label">
+          <span>LOCATION</span>
+          <strong>EARTH // FORESTS</strong>
+        </div>
+
+        <div class="art-label bottom-label">
+          <span>MISSION STATUS</span>
+          <strong class="green-text">PROTECT & RESTORE</strong>
+        </div>
+      </div>
+
+      <div class="vertical-text">SAVE NATURE // SAVE LIFE</div>
+      <div class="hero-index">01 / 04</div>
+    </section>
+
+    <section class="mission section" id="mission">
+      <p class="eyebrow">[ OUR PURPOSE ]</p>
+      <h2>ONE PLANET. <span>ONE MISSION.</span></h2>
+      <p class="section-description">
+        Forests are essential to life on Earth. They support
+        biodiversity, store carbon, protect soil and help
+        maintain the balance of our ecosystems.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">🌳</div>
+          <p class="card-number">MISSION 001</p>
+          <h3>PROTECT TREES</h3>
+          <p>Promote responsible tree planting and protect existing forests.</p>
+          <a href="#action">START HERE ↗</a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🦊</div>
+          <p class="card-number">MISSION 002</p>
+          <h3>GUARD WILDLIFE</h3>
+          <p>Protect animal habitats and preserve the biodiversity of our planet.</p>
+          <a href="#action">START HERE ↗</a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🌎</div>
+          <p class="card-number">MISSION 003</p>
+          <h3>HEAL THE EARTH</h3>
+          <p>Reduce waste, save resources and inspire sustainable living.</p>
+          <a href="#action">START HERE ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="threats section" id="threats">
+      <p class="eyebrow">[ THE ENEMY ]</p>
+      <h2>THE THREATS ARE <span>REAL.</span></h2>
+
+      <div class="threat-grid">
+        <div class="threat">
+          <span>01</span>
+          <div>
+            <h3>DEFORESTATION</h3>
+            <p>Tree loss destroys habitats and damages forest ecosystems.</p>
+          </div>
+          <span class="threat-icon">🪓</span>
+        </div>
+
+        <div class="threat">
+          <span>02</span>
+          <div>
+            <h3>CLIMATE CHANGE</h3>
+            <p>Changing temperatures and weather put forests under pressure.</p>
+          </div>
+          <span class="threat-icon">🔥</span>
+        </div>
+
+        <div class="threat">
+          <span>03</span>
+          <div>
+            <h3>HABITAT LOSS</h3>
+            <p>Wildlife loses food, shelter and space to survive.</p>
+          </div>
+          <span class="threat-icon">🐾</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="action-section" id="action">
+      <p class="eyebrow">✦ YOUR STORY STARTS NOW</p>
+      <h2>AWAKEN YOUR<br><span>GREEN POWER.</span></h2>
+      <p>One small action can inspire a greener future.</p>
+
+      <div class="action-buttons">
+        <button class="btn primary" id="plantBtn">
+          🌱 PLANT A VIRTUAL TREE
+        </button>
+        <button class="btn secondary" id="pledgeBtn">
+          💚 TAKE THE PLEDGE
+        </button>
+      </div>
+
+      <div class="counter-panel">
+        <div>
+          <span class="counter" id="treeCount">000</span>
+          <p>VIRTUAL TREES PLANTED</p>
+        </div>
+        <div>
+          <span class="counter" id="pledgeCount">000</span>
+          <p>GREEN PLEDGES</p>
+        </div>
+      </div>
+
+      <p id="message" aria-live="polite"></p>
+      <p class="disclaimer">
+        Demo counters only. These actions do not plant real trees.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#home">🌿 SAVE<span>FOREST</span></a>
+    <p>PROTECT THE GREEN. PRESERVE THE FUTURE.</p>
+    <p>© <span id="year"></span> SAVE FOREST PROJECT</p>
+  </footer>
+
+</body>
+</html>
